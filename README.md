@@ -54,27 +54,6 @@ This interactive dashboard visualizes weather data across multiple locations, en
 - **Data Connection**: API access or weather data files
 - **Power BI Service** (optional, for sharing and collaboration)
 
-## Installation
-
-1. Clone this repository:
-```bash
-   git clone https://github.com/yourusername/weather-dashboard.git
-```
-
-2. Open the `.pbix` file in Power BI Desktop
-
-3. Configure data source connections:
-   - Navigate to **Home > Transform Data > Data Source Settings**
-   - Update API credentials or file paths as needed
-
-4. Refresh the data to load the latest information
-
-## Usage
-
-1. **Navigate Between Pages**: Use the navigation buttons or page tabs to explore different sections
-2. **Apply Filters**: Use slicers to filter by date, location, or weather parameters
-3. **Interact with Visuals**: Click on charts and maps to cross-filter data
-4. **Export Reports**: Use Power BI's export features to share insights
 
 ## Data Refresh
 
@@ -97,43 +76,6 @@ To customize the dashboard for your needs:
 - **Power Query**: Data transformation and cleaning
 - **DAX**: Calculations and measures
 - **Weather APIs**: Real-time and historical data retrieval
-
-## Project Structure
-```
-weather-dashboard/
-│
-├── WeatherDashboard.pbix          # Main Power BI file
-├── data/                           # Sample data files (if applicable)
-│   ├── historical_weather.csv
-│   └── locations.csv
-├── images/                         # Screenshots and documentation images
-├── docs/                           # Additional documentation
-└── README.md                       # This file
-```
-
-## Screenshots
-
-![Dashboard Overview](<img width="1466" height="936" alt="Screenshot 2025-12-19 173930" src="https://github.com/user-attachments/assets/b5c52daf-308c-43e3-a2a7-54d009f65cc7" />)
-
-
-
-## Key Insights
-
-This dashboard helps users:
-- Monitor weather conditions in real-time
-- Identify seasonal patterns and anomalies
-- Plan activities based on weather forecasts
-- Make informed decisions for weather-dependent operations
-
-## Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/NewFeature`)
-3. Commit your changes (`git commit -m 'Add new feature'`)
-4. Push to the branch (`git push origin feature/NewFeature`)
-5. Open a Pull Request
 
 ## Future Enhancements
 
